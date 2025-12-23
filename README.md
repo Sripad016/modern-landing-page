@@ -19,12 +19,12 @@ https://modern-landing-page-sripad.netlify.app
 - Bootstrap
 
 ## Screenshots
-
-### Desktop View
+### Mobile View
 ![Desktop View](assets/screenshots/desktop.png)
 
-### Mobile View
+### Desktop View
 ![Mobile View](assets/screenshots/mobile.png)
+
 
 ## Project Structure
 
