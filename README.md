@@ -27,16 +27,17 @@ https://modern-landing-page-sripad.netlify.app
 ![Mobile View](assets/screenshots/mobile.png)
 
 ## Project Structure
-modern-landing-page/
-│── index.html  
-│── css/  
-│   └── style.css  
-│── assets/  
-│   ├── images/  
-│   │   └── (project images used in the page)  
-│   └── screenshots/  
-│       ├── desktop.png  
-│       └── mobile.png  
+modern-landing-page
+│── index.html
+│── css/
+│   └── style.css
+│── assets/
+│   ├── images/
+│   │   └── (images used in the webpage)
+│   └── screenshots/
+│       ├── desktop.png
+│       └── mobile.png
+
 
 ## Learning Outcomes
 - Practiced responsive web design using Bootstrap
