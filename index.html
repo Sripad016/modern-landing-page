@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Modern Landing Page</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <!--Bootstrap CSS-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+
+    <!--Bootstrap Icons cdn-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.13.1/font/bootstrap-icons.min.css"
+      integrity="sha512-t7Few9xlddEmgd3oKZQahkNI4dS6l80+eGEzFQiqtyVYdvcSG2D3Iub77R20BdotfRPA9caaRkg1tyaJiPmO0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!--Navbar Begins-->
+    <nav
+      class="navbar navbar-expand-lg navbar-light bg-white fixed-top shadow-sm"
+    >
+      <div class="container">
+        <a href="" class="navbar-brand fw-bold text-primary">
+          <i class="bi bi-boxes">StartUp</i>
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#features">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#pricing">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#testimonials">Testimonials</a>
+            </li>
+            <li class="nav-item">
+              <a class="btn btn-primary ms-1" href="#contact">Get Started</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!--Navbar Ends-->
+
+    <!-- hero section start -->
+    <section class="hero-section text-white align-items-center">
+      <div class="container">
+        <div class="row align-items-center gy-5">
+          <div class="col-lg-6 text-center text-lg-start">
+            <h1 class="display-4 fw-bold mb-4">
+              Transform Your Business With Our Solutions
+            </h1>
+            <p class="lead mb-4">
+              Empower your business with cutting edge tools and insights. Start
+              your journey today.
+            </p>
+
+            <div
+              class="d-flex flex-column flex-sm-row gap-3 justify-content-center justify-content-lg-start"
+            >
+              <a class="btn btn-light btn-lg w-100 w-sm-auto" href="#contact"
+                >Get Started</a
+              >
+
+              <a
+                class="btn btn-outline-light btn-lg w-100 w-sm-auto"
+                href="#contact"
+                >Learn More</a
+              >
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <img
+              class="img-fluid rounded-3 shadow"
+              src="./assets/images/Tech.jpg"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- hero section ends -->
+
+    <!--feature section start -->
+    <section id="features" class="py-5">
+      <div class="container py-5">
+        <div class="text-center mb-5">
+          <h2 class="fw-bold">Amazing Features</h2>
+          <p class="text-muted">Discover what makes us difference</p>
+        </div>
+        <div class="row g-4">
+          <!-- Feature 1 -->
+          <div class="col-md-4">
+            <div class="card h-100 p-4">
+              <div class="feature-icon">
+                <i class="bi bi-gear"></i>
+              </div>
+              <h4>Easy Integration</h4>
+              <p class="text-muted">
+                Seamlessly integrate with your existing tools and workflows.
+              </p>
+            </div>
+          </div>
+
+          <!-- Feature 2 -->
+          <div class="col-md-4">
+            <div class="card h-100 p-4">
+              <div class="feature-icon">
+                <i class="bi bi-shield-check"></i>
+              </div>
+              <h4>Secure & Reliable</h4>
+              <p class="text-muted">
+                Your data is protected with enterprise-grade security.
+              </p>
+            </div>
+          </div>
+
+          <!-- Feature 3 -->
+          <div class="col-md-4">
+            <div class="card h-100 p-4">
+              <div class="feature-icon">
+                <i class="bi bi-graph-up"></i>
+              </div>
+              <h4>Analytics</h4>
+              <p class="text-muted">
+                Get insights with powerful analytics tools.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--feature section end -->
+
+    <!-- Pricing section start -->
+    <section id="pricing" class="bg-light py-5">
+      <div class="container py-5">
+        <div class="text-center mb-5">
+          <h2>Simple Pricing</h2>
+          <p class="text-muted">Choose the plan that works for you</p>
+        </div>
+        <div class="row g-4">
+          <!-- Basic plan -->
+          <div class="col-lg-4">
+            <div class="card pricing-card h-100 p-4 pro-card">
+              <div class="card-body">
+                <h5 class="text-muted">Basic Plan</h5>
+                <h2 class="display-4 fw-bold mb-4">
+                  $9<small class="fs-6">/month</small>
+                </h2>
+                <ul class="list-unstyled mb-4">
+                  <li class="mb-3">
+                    <i class="bi bi-check text-primary me-2"> </i>Basic Features
+                  </li>
+                  <li class="mb-3">
+                    <i class="bi bi-check text-primary me-2"> </i>1 User
+                  </li>
+                  <li class="mb-3">
+                    <i class="bi bi-check text-primary me-2"> </i>5GB Storage
+                  </li>
+                  <a href="#" class="btn btn-outline-primary w-100"
+                    >Get Started</a
+                  >
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <!-- Pro Plan -->
+          <div class="col-lg-4">
+            <div class="card pricing-card h-100 p-4 pro-card">
+              <div class="card-body">
+                <span class="badge bg-primary mb-2">Popular</span>
+                <h5 class="text-muted">Pro Plan</h5>
+                <h2 class="display-4 fw-bold mb-4">
+                  $29<small class="fs-6">/month</small>
+                </h2>
+                <ul class="list-unstyled mb-4">
+                  <li class="mb-3">
+                    <i class="bi bi-check text-primary me-2"> </i>All Basic
+                    Features
+                  </li>
+                  <li class="mb-3">
+                    <i class="bi bi-check text-primary me-2"> </i>5 User
+                  </li>
+                  <li class="mb-3">
+                    <i class="bi bi-check text-primary me-2"> </i>50GB Storage
+                  </li>
+                  <a href="#" class="btn btn-primary w-100">Get Started</a>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <!-- Enterprise Plan -->
+          <div class="col-lg-4">
+            <div class="card pricing-card h-100 p-4 pro-card">
+              <div class="card-body">
+                <h5 class="text-muted">Enterprise Plan</h5>
+                <h2 class="display-4 fw-bold mb-4">
+                  $99<small class="fs-6">/month</small>
+                </h2>
+                <ul class="list-unstyled mb-4">
+                  <li class="mb-3">
+                    <i class="bi bi-check text-primary me-2"> </i>All Pro
+                    Features
+                  </li>
+                  <li class="mb-3">
+                    <i class="bi bi-check text-primary me-2"> </i>Unlimited User
+                  </li>
+                  <li class="mb-3">
+                    <i class="bi bi-check text-primary me-2"> </i>1TB Storage
+                  </li>
+                  <a href="#" class="btn btn-outline-primary w-100"
+                    >Contact Us</a
+                  >
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Pricing section end-->
+
+    <!-- Testimonial Section Starts -->
+    <section id="testimonials" class="py-5">
+      <div class="container py-5">
+        <div class="text-center mb-5">
+          <h2 class="fw-bold">What Our Client Says</h2>
+          <p class="text-muted">Trusted By Thousands of Companies</p>
+        </div>
+
+        <div class="row g-4">
+          <!-- Testimonial-1 -->
+          <div class="col-md-4">
+            <div class="card h-100 p-4">
+              <div class="d-flex align-items-center mb-4 gap-2">
+                <img
+                  class="testimonial-img"
+                  src="https://cdn.pixabay.com/photo/2021/05/10/23/26/woman-6244548_1280.jpg"
+                  alt="Client 1"
+                />
+                <div>
+                  <h5 class="mb-0">Maria Doe</h5>
+                  <small class="text-muted">CEO, Company</small>
+                </div>
+              </div>
+              <p class="text-muted">
+                "Amazing product! It has transformed how we do business."
+              </p>
+            </div>
+          </div>
+
+          <!-- Testimonial-2 -->
+          <div class="col-md-4">
+            <div class="card h-100 p-4">
+              <div class="d-flex align-items-center mb-4 gap-2">
+                <img
+                  class="testimonial-img"
+                  src="https://cdn.pixabay.com/photo/2023/08/11/04/41/woman-8182795_1280.jpg"
+                  alt="Client 2"
+                />
+                <div>
+                  <h5 class="mb-0">Ellyse Perry</h5>
+                  <small class="text-muted">CTO, StartUp</small>
+                </div>
+              </div>
+              <p class="text-muted">
+                "The best solution we've found for our business needs."
+              </p>
+            </div>
+          </div>
+
+          <!-- Testimonial-3 -->
+          <div class="col-md-4">
+            <div class="card h-100 p-4">
+              <div class="d-flex align-items-center mb-4 gap-2">
+                <img
+                  class="testimonial-img"
+                  src="https://cdn.pixabay.com/photo/2019/11/03/20/11/portrait-4599553_1280.jpg"
+                  alt="Client 3"
+                />
+                <div>
+                  <h5 class="mb-0">Lauren Bell</h5>
+                  <small class="text-muted">Founder, Tech Co</small>
+                </div>
+              </div>
+              <p class="text-muted">
+                "Incredible support and powerful features. highly recommended!"
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Testimonial Section ends -->
+
+    <!-- Contact section start -->
+    <section id="contact" class="bg-light py-5">
+      <div class="container py-5">
+        <div class="row justify-content-center">
+          <div class="col-md-8 col-lg-6">
+            <div class="card shadow-sm">
+              <div class="card-body p-4 p-md-5">
+                <h3 class="fw-bold mb-4">Get In Touch</h3>
+                <form>
+                  <div class="mb-3">
+                    <label class="form-label">Name</label>
+                    <input
+                      type="text"
+                      placeholder="Your Name"
+                      class="form-control form-control-lg"
+                    />
+                  </div>
+                  <div class="mb-3">
+                    <label class="form-label">Email</label>
+                    <input
+                      type="email"
+                      placeholder="Your Email"
+                      class="form-control form-control-lg"
+                    />
+                  </div>
+
+                  <div class="mb-3">
+                    <label class="form-label">Message</label>
+                    <textarea
+                      rows="4"
+                      placeholder="Your Message"
+                      class="form-control form-control-lg"
+                    ></textarea>
+                    <button class="btn btn-primary btn-lg mt-4" type="submit">
+                      Send Message
+                    </button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Contact section end -->
+
+    <!-- Footer section start -->
+    <footer class="bg-dark text-white py-4">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <h5>StartUp</h5>
+            <p>
+              <i class="bi bi-c-circle"></i>2025 StartUp. All Rights Reserved.
+            </p>
+          </div>
+          <div class="col-md-6 mb-0 text-md-end">
+            <div class="social-link gap-3 d-flex justify-content-end">
+              <a href="https://x.com/" target="_blank" class="text-white">
+                <i class="bi bi-twitter"></i>
+              </a>
+              <a
+                href="https://www.facebook.com/"
+                target="_blank"
+                class="text-white"
+              >
+                <i class="bi bi-facebook"></i>
+              </a>
+              <a
+                href="https://www.instagram.com/accounts/login/?hl=en"
+                target="_blank"
+                class="text-white"
+              >
+                <i class="bi bi-instagram"></i>
+              </a>
+              <a
+                href="https://www.linkedin.com/home"
+                target="_blank"
+                class="text-white"
+              >
+                <i class="bi bi-linkedin"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Footer section end -->
+
+    <!--Bootstrap Javascript-->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
